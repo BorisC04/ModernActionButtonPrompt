@@ -1,6 +1,6 @@
 #include "pch.h"
 #include "IniFile.hpp"
-#define ReplacePak(a, b) helperFunctions.ReplaceFile("gd_PC\\PRS\\" a ".PAK", "gd_PC\\PRS\\" b ".PAK");
+#define ReplacePak(a, b) helperFunctions.ReplaceFile("gd_PC\\" a ".PAK", "gd_PC\\" b ".PAK");
 // or #include "stdafx.h" for previous Visual Studio versions
 
 extern "C"
